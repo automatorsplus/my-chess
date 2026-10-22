@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyChess</title>
+  <meta name="description" content="A chess app for your Mac's browser: a wooden 3D-style board, legal moves only, a computer opponent, a Stockfish-powered coach, puzzles, endgame drills and opening theory.">
+  <meta name="theme-color" content="#1f1f21">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <main class="stage" aria-label="Chess board">
+      <div class="board-row">
+        <div class="evalbar" id="evalBar" role="img" aria-label="Evaluation">
+          <div class="evalbar-fill" id="evalFill"></div>
+          <span class="evalbar-text" id="evalText"></span>
+        </div>
+        <div class="board-wrap" id="boardWrap">
+          <div class="board-tilt" id="boardTilt">
+            <div class="board" id="board">
+              <div class="frame frame-top"></div>
+              <div class="frame frame-bottom"></div>
+              <div class="frame frame-left"></div>
+              <div class="frame frame-right"></div>
+              <div class="labels" id="labels" aria-hidden="true"></div>
+              <div class="field" id="field">
+                <div class="grid" id="grid" role="grid" aria-label="Board"></div>
+                <svg class="marks" id="marks" viewBox="0 0 800 800" preserveAspectRatio="none" aria-hidden="true"></svg>
+                <div class="pieces" id="pieces"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="status" id="status" role="status" aria-live="polite">
+        <span class="status-turn" id="statusTurn">White to move</span>
+        <span class="status-note" id="statusNote"></span>
+      </div>
+    </main>
+
+    <aside class="panel">
+      <header class="panel-head">
+        <h1>MyChess</h1>
+        <span class="engine-chip loading" id="engineChip">Starting engine…</span>
+      </header>
+
+      <div class="segmented mode-tabs" role="radiogroup" aria-label="Mode" id="modeTabs">
+        <button type="button" role="radio" data-value="play">Play</button>
+        <button type="button" role="radio" data-value="puzzles">Puzzles</button>
+        <button type="button" role="radio" data-value="endgames">Endgames</button>
+        <button type="button" role="radio" data-value="theory">Theory</button>
+      </div>
+
+      <section class="group puzzles" id="puzzlePanel" aria-label="Puzzles"></section>
+      <section class="group endgames" id="endgamePanel" aria-label="Endgame drills"></section>
+      <section class="group theory" id="theoryPanel" aria-label="Opening theory"></section>
+      <section class="group strategy" id="strategyPanel" aria-label="Middlegame strategy"></section>
+
+      <section class="group coach" id="coach" aria-labelledby="coachLabel">
+        <h2 id="coachLabel">Coach</h2>
+        <div class="opening" id="opening"></div>
+        <div class="review" id="review" aria-live="polite"></div>
+        <p class="accuracy" id="accuracy"></p>
+      </section>
+
+      <section class="group game-group" aria-labelledby="newGameLabel">
+        <h2 id="newGameLabel">Game</h2>
+        <label class="field-row">
+          <span>Players</span>
+          <select id="players">
+            <option value="w">You (White) vs Computer</option>
+            <option value="b">Computer vs You (Black)</option>
+            <option value="2">Two players</option>
+            <option value="c">Computer vs Computer</option>
+          </select>
+        </label>
+        <span class="sub-label" id="levelLabel">Computer</span>
+        <div class="segmented full" role="radiogroup" aria-labelledby="levelLabel" id="level">
+          <button type="button" role="radio" data-value="easy">Easy</button>
+          <button type="button" role="radio" data-value="medium">Medium</button>
+          <button type="button" role="radio" data-value="hard">Hard</button>
+          <button type="button" role="radio" data-value="rating">Rating</button>
+        </div>
+        <div class="elo" id="eloBox" hidden>
+          <div class="elo-row">
+            <input type="range" id="eloRange" min="400" max="3190" step="10" aria-label="Opponent rating (Elo)">
+            <span class="elo-value" id="eloValue">1200</span>
+          </div>
+          <div class="elo-actions">
+            <button type="button" class="btn small" id="eloMine">Use my puzzle rating</button>
+            <label class="toggle small"><input type="checkbox" id="eloAdaptive"> <span>Adjust after each game</span></label>
+          </div>
+        </div>
+        <p class="hint-text" id="levelHint"></p>
+        <button type="button" class="btn primary" id="newGame">New Game</button>
+        <div class="actions">
+          <button type="button" class="btn" id="takeBack">Take Back</button>
+          <button type="button" class="btn" id="hint">Hint</button>
+          <button type="button" class="btn" id="rotate">Rotate Board</button>
+        </div>
+      </section>
+
+      <section class="group log-group" aria-labelledby="logLabel">
+        <h2 id="logLabel">Moves</h2>
+        <ol class="log" id="log"></ol>
+      </section>
+
+      <details class="group options">
+        <summary><span>Appearance &amp; options</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="opt-section">
+          <h3>Board &amp; pieces</h3>
+          <label class="opt-row"><span>Board</span>
+            <select id="boardStyle">
+              <option value="wood">Wood (like the Mac)</option>
+              <option value="walnut">Walnut</option>
+              <option value="ebony">Ebony and maple</option>
+              <option value="marble">Marble</option>
+              <option value="metal">Metal</option>
+              <option value="tournament">Tournament (green)</option>
+            </select>
+          </label>
+          <label class="opt-row"><span>Pieces</span>
+            <select id="pieceStyle">
+              <option value="wood">Wood (like the Mac)</option>
+              <option value="walnut">Walnut</option>
+              <option value="ebony">Boxwood and ebony</option>
+              <option value="marble">Marble</option>
+              <option value="metal">Metal</option>
+              <option value="tournament">Tournament (plastic)</option>
+            </select>
+          </label>
+          <label class="opt-row switch"><span>3D pieces</span><input type="checkbox" id="pieces3d"></label>
+          <label class="opt-row switch"><span>3D view (tilted board)</span><input type="checkbox" id="view3d"></label>
+          <label class="opt-row switch"><span>Show legal moves</span><input type="checkbox" id="showLegal"></label>
+        </div>
+        <div class="opt-section">
+          <h3>Display</h3>
+          <label class="opt-row"><span>Text size</span>
+            <select id="textSize">
+              <option value="normal">Normal</option>
+              <option value="large">Large</option>
+              <option value="xl">Extra large</option>
+            </select>
+          </label>
+          <label class="opt-row switch"><span>Evaluation bar</span><input type="checkbox" id="evalOn"></label>
+        </div>
+        <div class="opt-section">
+          <h3>Coach &amp; sound</h3>
+          <label class="opt-row switch"><span>Coach grades every move</span><input type="checkbox" id="coachOn"></label>
+          <label class="opt-row switch"><span>Speak the computer’s moves</span><input type="checkbox" id="speak"></label>
+        </div>
+      </details>
+    </aside>
+  </div>
+
+  <div class="promo" id="promo" hidden>
+    <div class="promo-card" role="dialog" aria-modal="true" aria-labelledby="promoTitle">
+      <p id="promoTitle">Promote to</p>
+      <div class="promo-choices" id="promoChoices"></div>
+    </div>
+  </div>
+
+  <script src="js/core.js"></script>
+  <script src="js/openings-data.js"></script>
+  <script src="js/engine-host.js"></script>
+  <script src="js/analyzer.js"></script>
+  <script src="js/coach.js"></script>
+  <script src="js/puzzles-exclude.js"></script>
+  <script src="js/puzzles.js"></script>
+  <script src="js/endgames.js"></script>
+  <script src="js/theory.js"></script>
+  <script src="js/strategy-rules.js"></script>
+  <script src="js/strategy.js"></script>
+  <script src="js/textures.js"></script>
+  <script src="js/app.js"></script>
+  <script type="module" src="js/pieces3d.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+ "depth": 14,
+ "deep": 22,
+ "seconds": 629,
+ "checked": 14483,
+ "firstPass": 81,
+ "cleared": 77,
+ "removed": [
+  {
+   "id": "Kk3wX",
+   "rating": 1600,
+   "tags": [
+    "advantage",
+    "deflection",
+    "endgame",
+    "short"
+   ],
+   "solver": 1,
+   "ok": false,
+   "issues": [
+    "final position: your winning chance is 57% (+0.8 for you), below the 60% this kind of puzzle needs"
+   ],
+   "depth": 22,
+   "firstIssues": [
+    "final position: your winning chance is 59% (+1.0 for you), below the 60% this kind of puzzle needs"
+   ]
+  },
+  {
+   "id": "ALBny",
+   "rating": 2066,
+   "tags": [
+    "advancedPawn",
+    "advantage",
+    "discoveredAttack",
+    "endgame",
+    "long",
+    "promotion",
+    "underPromotion"
+   ],
+   "solver": 1,
+   "ok": false,
+   "issues": [
+    "final position: your winning chance is 57% (+0.8 for you), below the 60% this kind of puzzle needs"
+   ],
+   "depth": 22,
+   "firstIssues": [
+    "final position: your winning chance is 58% (+0.9 for you), below the 60% this kind of puzzle needs"
+   ]
+  },
+  {
+   "id": "tRjWk",
+   "rating": 2886,
+   "tags": [
+    "crushing",
+    "defensiveMove",
+    "endgame",
+    "long",
+    "pawnEndgame",
+    "quietMove",
+    "zugzwang"
+   ],
+   "solver": 1,
+   "ok": false,
+   "issues": [
+    "final position: your winning chance is 50% (−0.0 for you), below the 65% this kind of puzzle needs"
+   ],
+   "depth": 22,
+   "firstIssues": [
+    "final position: your winning chance is 50% (−0.0 for you), below the 65% this kind of puzzle needs"
+   ]
+  },
+  {
+   "id": "F4dwU",
+   "rating": 2347,
+   "tags": [
+    "advancedPawn",
+    "crushing",
+    "endgame",
+    "long",
+    "promotion"
+   ],
+   "solver": 1,
+   "ok": false,
+   "issues": [
+    "final position: your winning chance is 50% (−0.0 for you), below the 65% this kind of puzzle needs"
+   ],
+   "depth": 22,
+   "firstIssues": [
+    "final position: your winning chance is 50% (−0.0 for you), below the 65% this kind of puzzle needs"
+   ]
+  }
+ ]
+}

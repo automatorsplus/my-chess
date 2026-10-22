@@ -1,0 +1,3265 @@
+{
+ "engine": "Stockfish 19 (lite, WebAssembly, the build MyChess uses)",
+ "deep": 18,
+ "quick": 12,
+ "mainLines": [
+  {
+   "chapter": "Italian Game",
+   "line": "Italian Game: Classical Variation, Giuoco Pianissimo",
+   "eco": "C54",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Bc4",
+     "loss": 1.6,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "3…Bc5",
+     "loss": 0.8,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "4.c3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "4…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "5.d3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    }
+   ],
+   "final": "+0.2"
+  },
+  {
+   "chapter": "Ruy Lopez",
+   "line": "Ruy Lopez: Closed",
+   "eco": "C90",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Bb5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…a6",
+     "loss": 1.2,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4.Ba4",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "5.O-O",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "5…Be7",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "6.Re1",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "6…b5",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "7.Bb3",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "7…d6",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "8.c3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "8…O-O",
+     "loss": 0.7,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    }
+   ],
+   "final": "+0.5"
+  },
+  {
+   "chapter": "Scotch Game",
+   "line": "Scotch Game",
+   "eco": "C45",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.d4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…exd4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "4.Nxd4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "Four Knights Game",
+   "line": "Four Knights Game: Spanish Variation",
+   "eco": "C48",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 1.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.0"
+    },
+    {
+     "move": "4.Bb5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    }
+   ],
+   "final": "+0.1"
+  },
+  {
+   "chapter": "Vienna Game",
+   "line": "Vienna Game: Vienna Gambit",
+   "eco": "C29",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nc3",
+     "loss": 3.2,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.0"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "3.f4",
+     "loss": 2.2,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "−0.2"
+    }
+   ],
+   "final": "−0.2"
+  },
+  {
+   "chapter": "King’s Gambit",
+   "line": "King's Gambit Accepted: Fischer Defense",
+   "eco": "C34",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.f4",
+     "loss": 8,
+     "grade": "inaccuracy",
+     "sfBest": false,
+     "evalAfter": "−0.5"
+    },
+    {
+     "move": "2…exf4",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.4"
+    },
+    {
+     "move": "3.Nf3",
+     "loss": 2.1,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "−0.7"
+    },
+    {
+     "move": "3…d6",
+     "loss": 1.6,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "−0.5"
+    }
+   ],
+   "final": "−0.5"
+  },
+  {
+   "chapter": "Petrov’s Defence",
+   "line": "Petrov's Defense",
+   "eco": "C42",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 1.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "3.Nxe5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3…d6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4…Nxe4",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    }
+   ],
+   "final": "+0.4"
+  },
+  {
+   "chapter": "Philidor Defence",
+   "line": "Philidor Defense: Lion Variation",
+   "eco": "C41",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…d6",
+     "loss": 2.3,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3.d4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.7"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "4…Nbd7",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    }
+   ],
+   "final": "+0.5"
+  },
+  {
+   "chapter": "Sicilian Defence",
+   "line": "Sicilian Defense: Najdorf Variation",
+   "eco": "B90",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…c5",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…d6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3.d4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…cxd4",
+     "loss": 1.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4.Nxd4",
+     "loss": 0.8,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "5.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "5…a6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "French Defence",
+   "line": "French Defense: Advance Variation, Main Line",
+   "eco": "C02",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.d4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…d5",
+     "loss": 0.3,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "3.e5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…c5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4.c3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4…Nc6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "5.Nf3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "5…Qb6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "6.a3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    }
+   ],
+   "final": "+0.4"
+  },
+  {
+   "chapter": "Caro-Kann Defence",
+   "line": "Caro-Kann Defense: Classical Variation",
+   "eco": "B18",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…c6",
+     "loss": 0.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2.d4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "2…d5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "3.Nd2",
+     "loss": 2.8,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "3…dxe4",
+     "loss": 2.7,
+     "grade": "good",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4.Nxe4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "4…Bf5",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "Scandinavian Defence",
+   "line": "Scandinavian Defense: Main Line",
+   "eco": "B01",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…d5",
+     "loss": 2.7,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "2.exd5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.7"
+    },
+    {
+     "move": "2…Qxd5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.7"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.7"
+    },
+    {
+     "move": "3…Qa5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    }
+   ],
+   "final": "+0.6"
+  },
+  {
+   "chapter": "Pirc and Modern",
+   "line": "Pirc Defense",
+   "eco": "B07",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…d6",
+     "loss": 2.4,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "2.d4",
+     "loss": 1.8,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3…g6",
+     "loss": 1.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.7"
+    }
+   ],
+   "final": "+0.7"
+  },
+  {
+   "chapter": "Alekhine Defence",
+   "line": "Alekhine Defense: Modern Variation, Main Line",
+   "eco": "B05",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "2.e5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "2…Nd5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "3.d4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "3…d6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4.Nf3",
+     "loss": 0.8,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4…Bg4",
+     "loss": 2.8,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.8"
+    }
+   ],
+   "final": "+0.8"
+  },
+  {
+   "chapter": "Queen’s Gambit Declined",
+   "line": "Queen's Gambit Declined",
+   "eco": "D53",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4.Bg5",
+     "loss": 0.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "4…Be7",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "Queen’s Gambit Accepted",
+   "line": "Queen's Gambit Accepted: Normal Variation",
+   "eco": "D25",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…dxc4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Nf3",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4.e3",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "Slav and Semi-Slav",
+   "line": "Slav Defense: Alapin Variation",
+   "eco": "D16",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2…c6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Nf3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "4.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4…dxc4",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "5.a4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "King’s Indian Defence",
+   "line": "King's Indian Defense: Orthodox Variation",
+   "eco": "E92",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…g6",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…Bg7",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4.e4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4…d6",
+     "loss": 1.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "5.Nf3",
+     "loss": 1.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "5…O-O",
+     "loss": 0.8,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "6.Be2",
+     "loss": 1.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "6…e5",
+     "loss": 0.7,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    }
+   ],
+   "final": "+0.5"
+  },
+  {
+   "chapter": "Nimzo-Indian Defence",
+   "line": "Nimzo-Indian Defense: Rubinstein System",
+   "eco": "E40",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3…Bb4",
+     "loss": 1.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4.e3",
+     "loss": 1.6,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    }
+   ],
+   "final": "+0.1"
+  },
+  {
+   "chapter": "Queen’s Indian Defence",
+   "line": "Queen's Indian Defense: Traditional Variation",
+   "eco": "E17",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3.Nf3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3…b6",
+     "loss": 1.8,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4.g3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "4…Bb7",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "5.Bg2",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "5…Be7",
+     "loss": 1.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    }
+   ],
+   "final": "+0.6"
+  },
+  {
+   "chapter": "Grünfeld Defence",
+   "line": "Grünfeld Defense: Exchange Variation, Modern Exchange Variation",
+   "eco": "D85",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…g6",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…d5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4.cxd5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4…Nxd5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "5.e4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "5…Nxc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "6.bxc3",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "6…Bg7",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.4"
+    },
+    {
+     "move": "7.Nf3",
+     "loss": 1.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "Benoni and Benko",
+   "line": "Benoni Defense: King's Pawn Line",
+   "eco": "A65",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…c5",
+     "loss": 4.3,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.6"
+    },
+    {
+     "move": "3.d5",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3…e6",
+     "loss": 1.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.7"
+    },
+    {
+     "move": "4.Nc3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.7"
+    },
+    {
+     "move": "4…exd5",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.8"
+    },
+    {
+     "move": "5.cxd5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.9"
+    },
+    {
+     "move": "5…d6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.8"
+    },
+    {
+     "move": "6.e4",
+     "loss": 0.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.7"
+    }
+   ],
+   "final": "+0.7"
+  },
+  {
+   "chapter": "Dutch Defence",
+   "line": "Dutch Defense: Classical Variation",
+   "eco": "A91",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…f5",
+     "loss": 2.9,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3.g3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "3…e6",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4.Bg2",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.5"
+    },
+    {
+     "move": "4…Be7",
+     "loss": 0.3,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.5"
+    }
+   ],
+   "final": "+0.5"
+  },
+  {
+   "chapter": "London System",
+   "line": "Queen's Pawn Game: London System",
+   "eco": "D02",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "3.Bf4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.1"
+    }
+   ],
+   "final": "+0.1"
+  },
+  {
+   "chapter": "Catalan Opening",
+   "line": "Catalan Opening: Open Defense",
+   "eco": "E01",
+   "moves": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…Nf6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 0.4,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "3.g3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "3…d5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "4.Bg2",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    }
+   ],
+   "final": "+0.3"
+  },
+  {
+   "chapter": "English Opening",
+   "line": "English Opening: Carls-Bremen System",
+   "eco": "A22",
+   "moves": [
+    {
+     "move": "1.c4",
+     "loss": 1.8,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "1…e5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "2.Nc3",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0.8,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "3.g3",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.1"
+    }
+   ],
+   "final": "+0.1"
+  },
+  {
+   "chapter": "Réti Opening",
+   "line": "Réti Opening",
+   "eco": "A09",
+   "moves": [
+    {
+     "move": "1.Nf3",
+     "loss": 1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "1…d5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.c4",
+     "loss": 2.4,
+     "grade": "good",
+     "sfBest": false,
+     "evalAfter": "−0.1"
+    }
+   ],
+   "final": "−0.1"
+  },
+  {
+   "chapter": "King’s Indian Attack",
+   "line": "King's Indian Attack: Sicilian Variation",
+   "eco": "A08",
+   "moves": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.3"
+    },
+    {
+     "move": "1…e6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.2"
+    },
+    {
+     "move": "2.d3",
+     "loss": 1.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.1"
+    },
+    {
+     "move": "2…d5",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.1"
+    },
+    {
+     "move": "3.Nd2",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "−0.0"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0.1,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "−0.0"
+    },
+    {
+     "move": "4.Ngf3",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.0"
+    },
+    {
+     "move": "4…c5",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "+0.0"
+    },
+    {
+     "move": "5.g3",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.1"
+    },
+    {
+     "move": "5…Nc6",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "+0.0"
+    },
+    {
+     "move": "6.Bg2",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.0"
+    },
+    {
+     "move": "6…Be7",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.1"
+    },
+    {
+     "move": "7.O-O",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.1"
+    },
+    {
+     "move": "7…O-O",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.1"
+    },
+    {
+     "move": "8.Re1",
+     "loss": 0.8,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.1"
+    }
+   ],
+   "final": "−0.1"
+  },
+  {
+   "chapter": "Bird Opening",
+   "line": "Bird Opening: Lasker Variation",
+   "eco": "A03",
+   "moves": [
+    {
+     "move": "1.f4",
+     "loss": 5.5,
+     "grade": "inaccuracy",
+     "sfBest": false,
+     "evalAfter": "−0.3"
+    },
+    {
+     "move": "1…d5",
+     "loss": 0.6,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.2"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0.5,
+     "grade": "best/excellent",
+     "sfBest": true,
+     "evalAfter": "−0.2"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "−0.3"
+    },
+    {
+     "move": "3.e3",
+     "loss": 0,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "−0.2"
+    },
+    {
+     "move": "3…c5",
+     "loss": 0.2,
+     "grade": "best/excellent",
+     "sfBest": false,
+     "evalAfter": "−0.1"
+    }
+   ],
+   "final": "−0.1"
+  }
+ ],
+ "claims": [
+  {
+   "chapter": "Italian Game",
+   "claim": "After 4.Ng5, Black should answer 4…d5",
+   "ok": true,
+   "detail": "4…d5 gives away 2.2 win-% points (good)"
+  },
+  {
+   "chapter": "Italian Game",
+   "claim": "5…Nxd5 is worse than the main line 5…Na5 (it allows the Fried Liver, 6.Nxf7)",
+   "ok": true,
+   "detail": "5…Nxd5 loses 7.8, 5…Na5 loses 0.6 win-% points"
+  },
+  {
+   "chapter": "Ruy Lopez",
+   "claim": "In the Exchange Variation, 5.Nxe5? Qd4! wins the pawn back",
+   "ok": true,
+   "detail": "5.Nxe5 gives away 5.6 (inaccuracy); after 5…Qd4 Stockfish's line ends with material 0 for White"
+  },
+  {
+   "chapter": "Scotch Game",
+   "claim": "4.Bc4 is the Scotch Gambit and is playable",
+   "ok": true,
+   "detail": "named \"Scotch Game: Scotch Gambit\", gives away 1.0 (best/excellent)"
+  },
+  {
+   "chapter": "Four Knights Game",
+   "claim": "Halloween Gambit (4.Nxe5?!): Stockfish gives Black a clear advantage",
+   "ok": true,
+   "detail": "after 4.Nxe5 Stockfish rates it −1.9: White's winning chance 33%"
+  },
+  {
+   "chapter": "Vienna Game",
+   "claim": "The fork trick 3…Nxe4 4.Nxe4 d5 wins the piece back",
+   "ok": true,
+   "detail": "after 4…d5: −0.7; material 0 after Stockfish's next four moves"
+  },
+  {
+   "chapter": "Vienna Game",
+   "claim": "4.Qh5 leads to the Frankenstein–Dracula Variation",
+   "ok": true,
+   "detail": "a Lichess line named Frankenstein-Dracula starts this way"
+  },
+  {
+   "chapter": "King’s Gambit",
+   "claim": "After 3.Nf3, …Qh4+ just loses the queen",
+   "ok": true,
+   "detail": "3…Qh4+ gives away 51.6 (blunder)"
+  },
+  {
+   "chapter": "Petrov’s Defence",
+   "claim": "After 3.Nxe5 Nxe4, 4.Qe2! is the answer; 4…Nf6?? loses the queen to 5.Nc6+, and 4…Qe7 is the move",
+   "ok": true,
+   "detail": "Stockfish's reply to 3…Nxe4 is d1e2; 4…Nf6 gives away 37.8 (blunder) and 5.Nc6+ is a discovered check; Stockfish's defence is d8e7"
+  },
+  {
+   "chapter": "Philidor Defence",
+   "claim": "With an early …Nd7, Bc4 puts pressure on f7 and some natural moves already lose",
+   "ok": true,
+   "detail": "after 4.Bc4 — Be7: 19.5 (blunder), Ngf6: 13.8 (mistake), h6: 5.7 (inaccuracy), c6: 0.9 (best/excellent)"
+  },
+  {
+   "chapter": "Sicilian Defence",
+   "claim": "After the trade on d4, Black has two centre pawns against White’s one",
+   "ok": true,
+   "detail": "d- and e-file pawns: White 1, Black 2"
+  },
+  {
+   "chapter": "French Defence",
+   "claim": "The queen on b6 attacks b2 and, behind the c5 pawn, d4; 6.a3 is a main move",
+   "ok": true,
+   "detail": "Qb6 attacks b2; d4 only once the c-pawns are exchanged; 6.a3 gives away 0.0 (best/excellent)"
+  },
+  {
+   "chapter": "Caro-Kann Defence",
+   "claim": "5.Qe2 Ngf6?? 6.Nd6 is checkmate",
+   "ok": true,
+   "detail": "6.Nd6 is mate on the board; 5…Ngf6 gives away 47.2 (blunder)"
+  },
+  {
+   "chapter": "Alekhine Defence",
+   "claim": "After c4 the knight usually goes to b6",
+   "ok": true,
+   "detail": "Stockfish's choice after 3.c4: d5b6"
+  },
+  {
+   "chapter": "Queen’s Gambit Declined",
+   "claim": "The Elephant Trap: 6.Nxd5?? loses a piece",
+   "ok": true,
+   "detail": "6.Nxd5 gives away 37.2 (blunder); after the trap Black is 2 points up"
+  },
+  {
+   "chapter": "Queen’s Gambit Accepted",
+   "claim": "Holding the pawn with an early …b5 is risky: 3.e3 b5 is an inaccuracy, and a4 and b3 attack the pawns",
+   "ok": true,
+   "detail": "3…b5 gives away 6.0 (inaccuracy); after 4.a4 c6 5.axb5 cxb5 6.b3 Stockfish rates it +0.4 for White"
+  },
+  {
+   "chapter": "Slav and Semi-Slav",
+   "claim": "After 4…dxc4, 5.a4 stops …b5",
+   "ok": true,
+   "detail": "5.a4 gives away 0.0 (best/excellent)"
+  },
+  {
+   "chapter": "Nimzo-Indian Defence",
+   "claim": "After …Bxc3 White gets doubled c-pawns and the bishop pair",
+   "ok": true,
+   "detail": "White c-pawns 2, White bishops 2, Black bishops 1"
+  },
+  {
+   "chapter": "London System",
+   "claim": "Against …c5 and …Qb6, Qb3 is a sound answer",
+   "ok": true,
+   "detail": "5.Qb3 gives away 1.1 (best/excellent)"
+  },
+  {
+   "chapter": "Plan: Blackburne Shilling trap",
+   "claim": "4.Nxe5? is a mistake, 5.Nxf7?? a blunder, and after 4.Nxd4 White is clearly better",
+   "ok": true,
+   "detail": "4.Nxe5 gives away 17.1 (blunder), 5.Nxf7 34.2 (blunder); after 4.Nxd4 +1.3 (White 61%); the final mate works"
+  },
+  {
+   "chapter": "Plan: Légal’s mate",
+   "claim": "4…g6? is a mistake, 5.Nxe5! is best, 5…Bxd1?? allows mate, and 5…dxe5 6.Qxg4 leaves White a pawn up",
+   "ok": true,
+   "detail": "4…g6 gives away 15.4 (blunder); best reply f3e5; after 5…Bxd1 White has mate in 2; after 6.Qxg4 material +1"
+  },
+  {
+   "chapter": "Plan: Fried Liver Attack",
+   "claim": "5…Nxd5?! is an inaccuracy and 6.Nxf7! is Stockfish’s choice",
+   "ok": true,
+   "detail": "5…Nxd5 gives away 7.8 (inaccuracy); Stockfish’s reply g5f7"
+  },
+  {
+   "chapter": "Plan: Scholar’s mate defence",
+   "claim": "2…Nc6, 3…g6 and 4…Nf6 are all sound, and 3…Nf6?? allows 4.Qxf7 mate",
+   "ok": true,
+   "detail": "losses 0.2, 0.0, 0.0; 4.Qxf7 is mate on the board"
+  },
+  {
+   "chapter": "Plan: avoiding the Fried Liver",
+   "claim": "After 4.Ng5 d5 5.exd5, 5…Na5 is as good as best",
+   "ok": true,
+   "detail": "5…Na5 gives away 0.6 (best/excellent)"
+  },
+  {
+   "chapter": "Plan: Caro-Kann smothered mate",
+   "claim": "4…Bf5 avoids the trap and is sound",
+   "ok": true,
+   "detail": "4…Bf5 gives away 0.5 (best/excellent)"
+  },
+  {
+   "chapter": "Bird Opening",
+   "claim": "From’s Gambit: 4.Nc3? allows mate starting …Qh4+, 4.Nf3 stops it",
+   "ok": true,
+   "detail": "the mate works on the board; 4.Nc3 gives away 53.1 (blunder), 4.Nf3 0.5 (best/excellent)"
+  }
+ ],
+ "library": {
+  "moves": 8191,
+  "counts": {
+   "best/excellent": 5886,
+   "good": 1501,
+   "inaccuracy": 581,
+   "mistake": 155,
+   "blunder": 68
+  },
+  "worst": [
+   {
+    "move": "2.g4",
+    "line": "Barnes Opening: Fool's Mate",
+    "eco": "A00",
+    "loss": 43.6,
+    "evalAfter": "−M1"
+   },
+   {
+    "move": "3…Qxd5",
+    "line": "Caro-Kann Defense: Accelerated Panov Attack, Pseudo-Scandinavian",
+    "eco": "B10",
+    "loss": 43,
+    "evalAfter": "+7.8"
+   },
+   {
+    "move": "5…Qd4",
+    "line": "Zukertort Opening: Tennison Gambit, Brigg's Trap",
+    "eco": "A06",
+    "loss": 41.7,
+    "evalAfter": "+2.8"
+   },
+   {
+    "move": "7…Ne5",
+    "line": "Scotch Game: Sea-Cadet Mate",
+    "eco": "C44",
+    "loss": 39.3,
+    "evalAfter": "+7.1"
+   },
+   {
+    "move": "4.Bxf7+",
+    "line": "Italian Game: Jerome Gambit",
+    "eco": "C50",
+    "loss": 33.3,
+    "evalAfter": "−3.6"
+   },
+   {
+    "move": "3.g4",
+    "line": "Latvian Gambit: Lobster Gambit",
+    "eco": "C40",
+    "loss": 33.3,
+    "evalAfter": "−2.2"
+   },
+   {
+    "move": "11.Ng5",
+    "line": "Ruy Lopez: Open, Karpov Gambit",
+    "eco": "C80",
+    "loss": 30.3,
+    "evalAfter": "−3.3"
+   },
+   {
+    "move": "11…Qd7",
+    "line": "Ruy Lopez: Open, Tarrasch Trap",
+    "eco": "C83",
+    "loss": 30,
+    "evalAfter": "+4.1"
+   },
+   {
+    "move": "4.Nxe5",
+    "line": "Ruy Lopez: Halloween Attack",
+    "eco": "C65",
+    "loss": 29,
+    "evalAfter": "−3.2"
+   },
+   {
+    "move": "10.Qxd4",
+    "line": "Ruy Lopez: Noah's Ark Trap",
+    "eco": "C88",
+    "loss": 28.9,
+    "evalAfter": "−4.2"
+   },
+   {
+    "move": "3.Nxe5",
+    "line": "Irish Gambit",
+    "eco": "C44",
+    "loss": 28.6,
+    "evalAfter": "−3.1"
+   },
+   {
+    "move": "7.Bxf7+",
+    "line": "King's Gambit Accepted: Double Muzio Gambit, Young Gambit",
+    "eco": "C37",
+    "loss": 27.9,
+    "evalAfter": "−5.2"
+   },
+   {
+    "move": "8.Qxd4",
+    "line": "Ruy Lopez: Noah's Ark Trap",
+    "eco": "C71",
+    "loss": 27.3,
+    "evalAfter": "−3.2"
+   },
+   {
+    "move": "2.Ra3",
+    "line": "Ware Opening: Meadow Hay Trap",
+    "eco": "A00",
+    "loss": 27.3,
+    "evalAfter": "−3.7"
+   },
+   {
+    "move": "10…fxe3",
+    "line": "King's Gambit Accepted: Double Muzio Gambit, Young Gambit",
+    "eco": "C37",
+    "loss": 26.8,
+    "evalAfter": "+2.5"
+   },
+   {
+    "move": "1…g5",
+    "line": "Kádas Opening: Schneider Gambit",
+    "eco": "A00",
+    "loss": 26.4,
+    "evalAfter": "+2.6"
+   },
+   {
+    "move": "4.Nxe5",
+    "line": "Dresden Opening: The Goblin",
+    "eco": "C44",
+    "loss": 26.4,
+    "evalAfter": "−3.3"
+   },
+   {
+    "move": "2.g4",
+    "line": "Bird Opening: Dutch Variation, Dudweiler Gambit",
+    "eco": "A03",
+    "loss": 26.2,
+    "evalAfter": "−3.6"
+   },
+   {
+    "move": "3…Nb4",
+    "line": "Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit",
+    "eco": "B00",
+    "loss": 24.8,
+    "evalAfter": "+3.4"
+   },
+   {
+    "move": "4…Nf6",
+    "line": "Latvian Gambit: Corkscrew Countergambit",
+    "eco": "C40",
+    "loss": 24.8,
+    "evalAfter": "+4.2"
+   },
+   {
+    "move": "10.Ne5",
+    "line": "King's Gambit Accepted: Greco Gambit",
+    "eco": "C38",
+    "loss": 24.4,
+    "evalAfter": "−1.7"
+   },
+   {
+    "move": "2.Rh3",
+    "line": "Kádas Opening: Beginner's Trap",
+    "eco": "A00",
+    "loss": 24.2,
+    "evalAfter": "−3.4"
+   },
+   {
+    "move": "3.Kf2",
+    "line": "King's Gambit Accepted: Tumbleweed",
+    "eco": "C33",
+    "loss": 23.5,
+    "evalAfter": "−3.4"
+   },
+   {
+    "move": "6…f5",
+    "line": "King's Gambit Accepted: Kieseritzky, Salvio Defense, Cozio Variation",
+    "eco": "C39",
+    "loss": 23.1,
+    "evalAfter": "+2.0"
+   },
+   {
+    "move": "3.b4",
+    "line": "Latvian Gambit: Senechaud Gambit",
+    "eco": "C40",
+    "loss": 22.9,
+    "evalAfter": "−1.0"
+   },
+   {
+    "move": "3…e5",
+    "line": "Indian Defense: Schnepper Gambit",
+    "eco": "A47",
+    "loss": 22.1,
+    "evalAfter": "+2.7"
+   },
+   {
+    "move": "2.g4",
+    "line": "Clemenz Opening: Spike Lee Gambit",
+    "eco": "A00",
+    "loss": 22,
+    "evalAfter": "−1.8"
+   },
+   {
+    "move": "2.b4",
+    "line": "Scandinavian Defense: Zilbermints Gambit",
+    "eco": "B01",
+    "loss": 21.9,
+    "evalAfter": "−1.8"
+   },
+   {
+    "move": "2…g5",
+    "line": "King's Gambit Declined: Zilbermints Double Countergambit",
+    "eco": "C30",
+    "loss": 21.5,
+    "evalAfter": "+1.9"
+   },
+   {
+    "move": "7…Kxf7",
+    "line": "King's Gambit Accepted: Double Muzio Gambit, Young Gambit",
+    "eco": "C37",
+    "loss": 21.5,
+    "evalAfter": "−1.8"
+   },
+   {
+    "move": "5.Nxc6",
+    "line": "Ruy Lopez: Spanish Countergambit, Harding Gambit",
+    "eco": "C60",
+    "loss": 20.9,
+    "evalAfter": "−0.5"
+   },
+   {
+    "move": "5.O-O",
+    "line": "King's Gambit Accepted: Middleton Countergambit",
+    "eco": "C37",
+    "loss": 20.7,
+    "evalAfter": "−1.2"
+   },
+   {
+    "move": "4.f4",
+    "line": "French Defense: Hoffmann Gambit",
+    "eco": "C00",
+    "loss": 20.5,
+    "evalAfter": "−1.1"
+   },
+   {
+    "move": "2…e5",
+    "line": "Indian Defense: Maddigan Gambit",
+    "eco": "A45",
+    "loss": 20.5,
+    "evalAfter": "+2.3"
+   },
+   {
+    "move": "4…d6",
+    "line": "King's Gambit Accepted: Middleton Countergambit",
+    "eco": "C37",
+    "loss": 20.2,
+    "evalAfter": "+1.1"
+   },
+   {
+    "move": "3.b3",
+    "line": "King's Gambit Accepted: Orsini Gambit",
+    "eco": "C33",
+    "loss": 20,
+    "evalAfter": "−2.9"
+   },
+   {
+    "move": "4.b4",
+    "line": "Hungarian Opening: Reversed Brooklyn Defense, Brooklyn Benko Gambit",
+    "eco": "A00",
+    "loss": 19.5,
+    "evalAfter": "−2.6"
+   },
+   {
+    "move": "3…f5",
+    "line": "Vienna Game: Philidor Countergambit",
+    "eco": "C25",
+    "loss": 19.1,
+    "evalAfter": "+1.8"
+   },
+   {
+    "move": "5.Nxe5",
+    "line": "Ruy Lopez: Berlin Defense, Anti-Berlin Variation, Mortimer Trap",
+    "eco": "C65",
+    "loss": 19.1,
+    "evalAfter": "−1.8"
+   },
+   {
+    "move": "7…d5",
+    "line": "Vienna Game: Pierce Gambit, Rushmere Attack",
+    "eco": "C25",
+    "loss": 19,
+    "evalAfter": "+0.0"
+   }
+  ]
+ },
+ "plan": [
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "Main line: the Giuoco Pianissimo",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bc4",
+     "loss": 1.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.c3",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5.d3",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.6
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "Against 3…Nf6: the calm 4.d3",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bc4",
+     "loss": 1.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.d3",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.6
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "If Black plays the Petrov (2…Nf6)",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Nxe5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5.d4",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "If Black plays the Philidor (2…d6)",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.d4",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "If Black plays the Sicilian: develop, then d4",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.6
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "If Black plays the French: take space with e5",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.d4",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.6
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "If Black plays the Caro-Kann: take space with e5",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.d4",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.e5",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.2
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "If Black plays the Scandinavian: hit the queen",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.exd5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Nc3",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.2
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "Légal’s mate",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bc4",
+     "loss": 1.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.Nc3",
+     "loss": 2.8,
+     "grade": "good"
+    },
+    {
+     "move": "5.Nxe5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "6.Bxf7+",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "7.Nd5#",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 2.8
+  },
+  {
+   "slot": "As White",
+   "option": "Italian Game",
+   "line": "Fried Liver Attack",
+   "yours": [
+    {
+     "move": "1.e4",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bc4",
+     "loss": 1.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.Ng5",
+     "loss": 2.1,
+     "grade": "good"
+    },
+    {
+     "move": "5.exd5",
+     "loss": 2.4,
+     "grade": "good"
+    },
+    {
+     "move": "6.Nxf7",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 2.4
+  },
+  {
+   "slot": "As White",
+   "option": "London System",
+   "line": "Main set-up",
+   "yours": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bf4",
+     "loss": 0.4,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.7
+  },
+  {
+   "slot": "As White",
+   "option": "London System",
+   "line": "Against …c5",
+   "yours": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bf4",
+     "loss": 0.4,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.e3",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.7
+  },
+  {
+   "slot": "As White",
+   "option": "London System",
+   "line": "Against 1…Nf6",
+   "yours": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Nf3",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.Bf4",
+     "loss": 1.2,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.7
+  },
+  {
+   "slot": "As White",
+   "option": "London System",
+   "line": "The …Qb6 attack on b2",
+   "yours": [
+    {
+     "move": "1.d4",
+     "loss": 1.7,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2.Bf4",
+     "loss": 0.7,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3.e3",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4.c3",
+     "loss": 0.3,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5.Qb3",
+     "loss": 1.1,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.7
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Against the Italian",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Bc5",
+     "loss": 0.8,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5…d6",
+     "loss": 0.7,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.8
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Against the Ruy Lopez",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…a6",
+     "loss": 1.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5…Be7",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.2
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Against the Scotch",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…exd4",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…Bc5",
+     "loss": 1.3,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.3
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Against the Bishop’s Opening",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0.3,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.6
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Against the Vienna",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.6
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Against the King’s Gambit: take the pawn",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…exf4",
+     "loss": 0.5,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…d6",
+     "loss": 1.6,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 1.6
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Scholar’s mate: how to stop it",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…g6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.6
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "1…e5",
+   "line": "Fried Liver: how to avoid it",
+   "yours": [
+    {
+     "move": "1…e5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nc6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 1.6,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…d5",
+     "loss": 2.2,
+     "grade": "good"
+    },
+    {
+     "move": "5…Na5",
+     "loss": 0.6,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 2.2
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "Caro-Kann",
+   "line": "Main line: the Classical",
+   "yours": [
+    {
+     "move": "1…c6",
+     "loss": 0.3,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…d5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…dxe4",
+     "loss": 2.7,
+     "grade": "good"
+    },
+    {
+     "move": "4…Bf5",
+     "loss": 0.5,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 2.7
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "Caro-Kann",
+   "line": "Against the Advance (3.e5)",
+   "yours": [
+    {
+     "move": "1…c6",
+     "loss": 0.3,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…d5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Bf5",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.3
+  },
+  {
+   "slot": "Against 1.e4",
+   "option": "Caro-Kann",
+   "line": "Against the Exchange (3.exd5)",
+   "yours": [
+    {
+     "move": "1…c6",
+     "loss": 0.3,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…d5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…cxd5",
+     "loss": 0.5,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.5
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Queen’s Gambit Declined",
+   "line": "Main line",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…Be7",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.9
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Queen’s Gambit Declined",
+   "line": "Against the Exchange (4.cxd5)",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…exd5",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.9
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Queen’s Gambit Declined",
+   "line": "Against the London: hit back with …c5",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…c5",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.9
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Queen’s Gambit Declined",
+   "line": "Against quiet systems (e3 and Bd3)",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.9
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Queen’s Gambit Declined",
+   "line": "The Elephant Trap",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…e6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…Nbd7",
+     "loss": 0.7,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5…exd5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "6…Nxd5",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "7…Bb4+",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "8…Bxd2+",
+     "loss": 3.2,
+     "grade": "good"
+    },
+    {
+     "move": "9…Kxd8",
+     "loss": 0.2,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 3.2
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Slav",
+   "line": "Main line: the Czech Variation",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…c6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "4…dxc4",
+     "loss": 0.1,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "5…Bf5",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.9
+  },
+  {
+   "slot": "Against 1.d4",
+   "option": "Slav",
+   "line": "Against the London: hit back with …c5",
+   "yours": [
+    {
+     "move": "1…d5",
+     "loss": 0.9,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "2…Nf6",
+     "loss": 0,
+     "grade": "best/excellent"
+    },
+    {
+     "move": "3…c5",
+     "loss": 0,
+     "grade": "best/excellent"
+    }
+   ],
+   "worst": 0.9
+  }
+ ],
+ "seconds": 193
+}
